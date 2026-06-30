@@ -68,4 +68,4 @@ Built a machine learning web application to classify emails as phishing or legit
 
 ## 👩‍💻 Developer
 
-**Bency**
+**Bency Hanita Angelica K**

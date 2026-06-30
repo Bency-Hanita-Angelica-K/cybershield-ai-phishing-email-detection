@@ -261,7 +261,7 @@ if st.sidebar.button("Clear Email"):
     st.rerun()
 
 st.sidebar.markdown("---")
-st.sidebar.write("Developer: Bency")
+st.sidebar.write("Developer: Bency Hanita Angelica K")
 st.sidebar.write("Project Type: Machine Learning + Cybersecurity")
 
 logo = cyber_logo_svg()

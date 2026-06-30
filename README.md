@@ -1,37 +1,44 @@
 # 🛡️ CyberShield AI - Phishing Email Detection System
 
-CyberShield AI is a professional machine learning web application that detects whether an email is **phishing** or **legitimate** using Natural Language Processing.
+A professional Machine Learning web application that detects whether an email is **Phishing** or **Legitimate** using **Natural Language Processing (NLP)** and **Logistic Regression**.
 
-## 🚀 Features
+---
 
-- Phishing and legitimate email classification
+# 🚀 Features
+
+- Machine Learning based phishing detection
+- Professional CyberShield AI dashboard
 - Confidence score
-- Risk badge: Low, Medium, High
+- Risk Badge (Low / Medium / High)
 - Probability chart
-- URL detection
-- Suspicious keyword detection
-- Email summary dashboard
-- Explanation of classification result
-- PDF analysis report download
-- Analysis history
-- Sample phishing and legitimate emails
+- URL Detection
+- Suspicious Keyword Detection
+- Email Summary
+- Analysis History
+- PDF Report Download
+- Sample Emails
+- Responsive Streamlit UI
 
-## 🛠️ Tech Stack
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - Scikit-learn
 - Pandas
-- Altair
-- ReportLab
 - TF-IDF Vectorizer
 - Logistic Regression
 - Joblib
+- ReportLab
+- Altair
 
-## 📂 Project Structure
+---
+
+# 📂 Project Structure
 
 ```text
-phishing-email-detection/
+phishing-email-detection
 │
 ├── app.py
 ├── train_model.py
@@ -40,32 +47,91 @@ phishing-email-detection/
 ├── README.md
 ├── .gitignore
 │
-└── model/
-    ├── model.pkl
-    └── vectorizer.pkl
+├── model
+│   ├── model.pkl
+│   └── vectorizer.pkl
+│
+└── screenshots
 ```
 
-## ⚙️ How to Run
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home Page](screenshots/homepage.png)
+
+---
+
+## 📋 Sidebar
+
+![Sidebar](screenshots/sidebar.png)
+
+---
+
+## 🚨 Phishing Detection
+
+### Part 1
+
+![Phishing Result 1](screenshots/phishing-result-1.png)
+
+### Part 2
+
+![Phishing Result 2](screenshots/phishing-result-2.png)
+
+---
+
+## ✅ Legitimate Detection
+
+### Part 1
+
+![Legitimate Result 1](screenshots/legitimate-result-1.png)
+
+### Part 2
+
+![Legitimate Result 2](screenshots/legitimate-result-2.png)
+
+---
+
+## 📊 Analysis History
+
+![Analysis History](screenshots/analysis-history.png)
+
+---
+
+# ⚙️ Installation
 
 ```bash
+git clone https://github.com/Bency-Hanita-Angelica-K/cybershield-ai-phishing-email-detection.git
+
+cd cybershield-ai-phishing-email-detection
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python train_model.py
+
 streamlit run app.py
 ```
 
-## 📊 Machine Learning Model
+---
 
-- Text Processing: TF-IDF Vectorizer
-- Algorithm: Logistic Regression
-- Accuracy: Around 96%
+# 📊 Machine Learning Model
 
-## 📌 Resume Description
+- TF-IDF Vectorizer
+- Logistic Regression
+- Accuracy: **96%**
 
-**CyberShield AI – Phishing Email Detection System**  
-Built a machine learning web application to classify emails as phishing or legitimate using TF-IDF and Logistic Regression. The system provides confidence score, risk level, suspicious keyword detection, URL detection, analysis history, and downloadable PDF reports.
+---
 
-## 👩‍💻 Developer
+# 👩‍💻 Developer
 
 **Bency Hanita Angelica K**
+
+---
+
+# ⭐ If you like this project, don't forget to star the repository.
